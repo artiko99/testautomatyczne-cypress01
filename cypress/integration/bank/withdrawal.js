@@ -1,4 +1,4 @@
-import {FirstTest} from "../pages/firstet_page"
+import {FirstTest} from "../../pages/bankPage/firstet_page"
 
 const firstTest = new FirstTest()
 
@@ -8,5 +8,6 @@ firstTest.enterPerson()
 firstTest.chooseNameHermiona()
 firstTest.enterwithdrawal('3000')
 cy.get('.error').should('be.visible')
+
 
 })

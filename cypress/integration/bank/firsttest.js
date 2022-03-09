@@ -1,4 +1,4 @@
-import {FirstTest} from "../pages/firstet_page"
+import {FirstTest} from "../../pages/bankPage/firstet_page"
 
 const firstTest = new FirstTest()
 
